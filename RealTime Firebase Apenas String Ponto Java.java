@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-// Adicione um ValueEventListener para ouvir as alterações no nó "noComunicados" em tempo real.
+// Adicione um ValueEventListener, dentro de um metodo, quando colocar new Value..... as proximas linhas virão auto, para ouvir as alterações no nó "noComunicados" em tempo real.
         noComunicados.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
